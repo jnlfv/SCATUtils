@@ -1,4 +1,7 @@
 # SCAT Dataset Utils
+[![DOI](https://zenodo.org/badge/330899568.svg)](https://zenodo.org/badge/latestdoi/330899568)
+
+This repository contains sample code to read data in the Swedish Civil Air Traffic Control ([SCAT](https://data.mendeley.com/datasets/8yn985bwz5)) dataset.
 
 ## Indexing flights
 The script *idx_flight.py* creates an index of all flights in an zip archive. The index is stored in CSV format with one line per flight containing *id, callsign	adep, ades, adar, aircraft_type, wtc, plots_start, plots_end* and *plot_count*.
